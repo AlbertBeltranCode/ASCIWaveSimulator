@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>ASCII Ocean Waves Simulator</title>
+        <!-- Enlace al archivo de estilo CSS -->
+        <link rel="stylesheet" type="text/css" href="waveStyles.css">
+    </head>
+    <body>
+        <h1>ASCII Ocean Waves Simulator</h1>
+
+        <!-- Contenedor donde se mostrarán las olas en ASCII -->
+        <div id="wave"><h2>Loading waves...</h2></div>
+
+        <!-- Slider para controlar la amplitud de las olas -->
+        <label for="amplitude">Amplitude (Altura de la ola):</label>
+        <input type="range" id="amplitude" min="1" max="10" value="5" />
+        <br />
+
+        <!-- Slider para controlar la frecuencia o velocidad de las olas -->
+        <label for="frequency">Frequency (Velocidad de la ola):</label>
+        <input type="range" id="frequency" min="1" max="10" value="5" />
+
+        <!-- Enlace al archivo JavaScript -->
+        <script src="wavesFunctionality.js"></script>
+        <footer><p>Project developed by Albert Beltran Carbonell ©2024</p></footer>
+    </body>
+    
+</html>
